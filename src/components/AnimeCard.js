@@ -1,9 +1,10 @@
-export default function AnimeCard(props){
+export default function AnimeCard({titulo, imagen, description, children, ...props}){
     return (
-        <div className="border-4 border-rose-300">
-            <h2>{props.titulo}</h2>
-            <img src={props.imagen}/>
-            <p>{props.description}</p>
+        <div className="border-4 border-rose-300" {...props}>
+            <h2>{titulo}</h2>
+            <img src={imagen}/>
+            <p>{description}</p>
+            {children}
         </div>
     )
 }
