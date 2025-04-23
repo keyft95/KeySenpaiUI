@@ -72,7 +72,7 @@ export default function AddAnime(){
                     <option value="ESPECIAL">Especial</option>
                 </select>
                 
-                <Button>
+                <Button >
                     Agregar Anime
                 </Button>
             </form>

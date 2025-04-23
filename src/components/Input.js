@@ -6,7 +6,7 @@ export default function Input({id, text, type = "text", ...props}){
             type={type}
             id={id}
             {...props}
-            className="mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-sm dark:border-gray-600 dark:bg-gray-900 dark:text-white"
+            className="mt-0.5 w-full rounded border-gray-300 shadow-sm sm:text-xl dark:border-gray-600 dark:bg-gray-900 dark:text-white"
         />
         </label>
     )
